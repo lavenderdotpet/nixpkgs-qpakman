@@ -15,7 +15,7 @@ stdenv.mkDerivation {
     owner = "LibreQuake";
     repo = "qpakman";
     rev = "cdc3c7b41bd921307938226d386cb14e62a88416";
-    hash = "SKIP";
+    hash = "sha256-0000000000000000000000000000000000000000";
   };
 
   nativeBuildInputs = [
