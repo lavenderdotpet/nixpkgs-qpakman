@@ -4,7 +4,7 @@
   fetchFromGitHub,
   pkg-config,
   cmake,
-  libpng,
+  stb,
   zlib,
 }:
 stdenv.mkDerivation {
