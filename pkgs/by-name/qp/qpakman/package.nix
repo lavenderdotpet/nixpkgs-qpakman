@@ -4,7 +4,7 @@
   fetchFromGitHub,
   pkg-config,
   cmake,
-  stb,
+  libpng,
   zlib,
 }:
 stdenv.mkDerivation {
@@ -15,7 +15,7 @@ stdenv.mkDerivation {
     owner = "LibreQuake";
     repo = "qpakman";
     rev = "cdc3c7b41bd921307938226d386cb14e62a88416";
-    hash = "0000000000000000000000000000000000000000";
+    hash = "SKIP";
   };
 
   nativeBuildInputs = [
@@ -29,7 +29,7 @@ stdenv.mkDerivation {
   ];
 
   meta = with lib; {
-    homepage = "https://github.com/LibreQuake/qpakman";
+    homepage = "https://github.com/fhomolka/qpakman";
     description = "command-line tool for managing PAK and WAD files from QuakeI/II & Hexen II";
     license = licenses.gpl2Plus;
     maintainers = [ ];
